@@ -1,0 +1,7 @@
+#august{
+    font-size:18px;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+}
