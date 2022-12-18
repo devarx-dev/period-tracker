@@ -9,11 +9,13 @@ function ColorSchemesExample() {
       <br />
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand>S.H.E</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/home" >Home</Nav.Link>
+            <Nav.Link href="/calender">Calender</Nav.Link>
+            <Nav.Link href="/todo">To do list</Nav.Link>
+            <Nav.Link href="/hygine">Hygine</Nav.Link>
+
           </Nav>
         </Container>
       </Navbar>

@@ -1,7 +1,58 @@
+*{
+    box-sizing: border-box;
+}
 #august{
     font-size:18px;
 }
 .nav{
     display:flex;
     flex-direction: row;
+}
+.home .women{
+    width:100%;
+    height:auto;
+    object-fit: Fill;
+}
+.home .widget{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+.home .widget .firstwidget{
+    padding:8%;
+    font-size: 20px;
+    border-style: inset;
+    margin:10px;
+    text-align: center;
+}
+.home .widget .firstwidget .secondwidget{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .widget .firstwidget .secondwidget button{
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+.home .widget .firstwidget .secondwidget p{
+    font-size: 30px;
+}
+.home .track{
+    background-color: #4CAF50;
+    color:white;
+    text-decoration: none;
+    border: white;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    height:30px;
 }
